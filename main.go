@@ -38,15 +38,19 @@ func main() {
 	// area = 0.5 * base * height
 	// fmt.Printf("Area of triangle = %v\n", area)
 
-	var radius, area float32
+	// var radius, area float32
 
-	fmt.Printf("Enter Radius : ")
-	fmt.Scan(&radius)
+	// fmt.Printf("Enter Radius : ")
+	// fmt.Scan(&radius)
 
-	area = 3.1416 * radius * radius
-	fmt.Printf("Area of circle: %v\n", area)
+	// area = 3.1416 * radius * radius
+	// fmt.Printf("Area of circle: %v\n", area)
 
-	// 2. Assignment Operators
+	// 2. Assignment Operators --> =, +=, -=, *=, /=, %=
+	x := 4
+	x = x + 2
+	fmt.Printf("x = %v\n", x)
+
 	// 3. Unary Operators
 	// 4. Relational Operators
 	// 5. Logical Operators
