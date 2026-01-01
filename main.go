@@ -57,3 +57,15 @@ func main() {
 	// 6. Bitwise Operators
 	// 7. Special Operators
 }
+
+func main() {
+// stripePaymentGw := stripe{}
+// razorpayPaymentGw := razorpay{}
+// fakeGw : fakepayment{}
+paypalGw : paypal{}
+newPayment := payment { t{
+I
+gateway: paypalGw,
+}
+newPayment.makePayment (100)
+}
